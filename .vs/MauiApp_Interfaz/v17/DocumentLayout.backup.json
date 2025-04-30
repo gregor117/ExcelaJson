@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|c:\\users\\gregorio\\onedrive - universidad de la sierra\\escritorio\\.net\\mauiapp_interfaz\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|c:\\users\\gregorio\\onedrive - universidad de la sierra\\escritorio\\.net\\mauiapp_interfaz\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|c:\\users\\gregorio\\onedrive - universidad de la sierra\\escritorio\\.net\\mauiapp_interfaz\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|c:\\users\\gregorio\\onedrive - universidad de la sierra\\escritorio\\.net\\mauiapp_interfaz\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA39900C-1355-4DC9-9CFC-78FB2CE27531}|MauiApp_Interfaz.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T16:52:33.304Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAQwJsBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T19:11:39.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T03:31:49.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Gregorio\\OneDrive - Universidad de la Sierra\\Escritorio\\.NET\\MauiApp_Interfaz\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-15T03:31:07.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

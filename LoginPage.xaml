@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp_Interfaz.LoginPage"
+             Title="Iniciar Sesión">
+    <Grid>
+
+        <Image Source="fondopolizas.png"
+               Aspect="AspectFill"
+               Opacity="0.9"
+               ZIndex="-1" />
+
+        <ScrollView>
+            <Grid Padding="30"
+                  RowSpacing="20"
+                  RowDefinitions="Auto, *">
+
+                <VerticalStackLayout Spacing="30"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                     WidthRequest="350"
+                                     Grid.Row="1">
+
+                    <Image Source="logops.png"
+                           HeightRequest="140"
+                           WidthRequest="140"
+                           HorizontalOptions="Center" />
+
+                    <Label Text="Bienvenido"
+                           FontSize="30"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="black" />
+
+                    <Entry x:Name="usuarioEntry"
+                           Placeholder="Usuario"
+                           FontSize="18"
+                           Visual="Material"
+                           BackgroundColor="#EFEFEF"
+                           TextColor="Black"
+                           HeightRequest="55" />
+
+                    <Entry x:Name="contrasenaEntry"
+                           Placeholder="Contraseña"
+                           IsPassword="True"
+                           FontSize="18"
+                           Visual="Material"
+                           BackgroundColor="#EFEFEF"
+                           TextColor="Black"
+                           HeightRequest="55" />
+
+
+                    <Button Text="Iniciar Sesión"
+                            Clicked="OnLoginClicked"
+                            HeightRequest="55"
+                            FontSize="18"
+                            BackgroundColor="#007AFF"
+                            TextColor="White"
+                            CornerRadius="12"
+                            FontAttributes="Bold" />
+
+                    <Label x:Name="mensajeLabel"
+                           TextColor="Red"
+                           FontSize="16"
+                           IsVisible="False"
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Grid>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>

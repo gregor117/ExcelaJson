@@ -1,0 +1,1 @@
+C:\Users\Gregorio\OneDrive - Universidad de la Sierra\Escritorio\.NET\MauiApp_Interfaz\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppPackages\MauiApp_Interfaz_1.0.0.0_Test\MauiApp_Interfaz_1.0.0.0_x86.msix

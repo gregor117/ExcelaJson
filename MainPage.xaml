@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp_Interfaz.MainPage"
+             Title="Actualizar precios"
+             BackgroundColor="#f9fafb">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <Label Text="Actualizar precios"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#1f2937"
+                   TextDecorations="Underline" />
+
+            <Border Stroke="#e5e7eb" Background="#ffffff" StrokeShape="RoundRectangle 12" Padding="15">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Precios del catálogo" FontAttributes="Bold" FontSize="18" TextColor="#1f2937"/>
+                    <Button Text="📁 Seleccionar archivo catálogo"
+                            Clicked="OnSeleccionarArchivoCatalogoClicked"
+                            BackgroundColor="#c7d2fe"
+                            TextColor="#1e40af"/>
+                    <Label x:Name="lblArchivoCatalogo" TextColor="#6b7280" FontSize="12" />
+                    <Entry Placeholder="Hoja" x:Name="entryHojaCatalogo" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Stroke="#e5e7eb" Background="#ffffff" StrokeShape="RoundRectangle 12" Padding="15">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Precios por volumen" FontAttributes="Bold" FontSize="18" TextColor="#1f2937"/>
+                    <Button Text="📁 Seleccionar archivo volumen"
+                            Clicked="OnSeleccionarArchivoVolumenClicked"
+                            BackgroundColor="#c7d2fe"
+                            TextColor="#1e40af"/>
+                    <Label x:Name="lblArchivoVolumen" TextColor="#6b7280" FontSize="12" />
+                    <Entry Placeholder="Hoja" x:Name="entryHojaVolumen" />
+
+                    <Label Text="Modo de carga:" FontAttributes="Bold" FontSize="14" TextColor="#1f2937" />
+                    <HorizontalStackLayout Spacing="20">
+                        <RadioButton x:Name="rbActualizar" Content="Actualizar" GroupName="ModoVolumen" TextColor="#1f2937"/>
+                        <RadioButton x:Name="rbSustituir" Content="Sustituir" GroupName="ModoVolumen" IsChecked="True" TextColor="#1f2937"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Stroke="#e5e7eb" Background="#ffffff" StrokeShape="RoundRectangle 12" Padding="15">
+                <VerticalStackLayout Spacing="15">
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <CheckBox x:Name="chkImpuestos" IsChecked="True" />
+                        <Label Text="Precios incluyen impuestos" VerticalOptions="Center" TextColor="#1f2937"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <CheckBox x:Name="chkReposicion" IsChecked="True" />
+                        <Label Text="Actualizar costo de reposición cero" VerticalOptions="Center" TextColor="#1f2937"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <CheckBox x:Name="chkPMP" IsChecked="True" />
+                        <Label Text="Actualizar Precio Máximo al Público" VerticalOptions="Center" TextColor="#1f2937"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Border>
+ 
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                <Button Text="Procesar"
+                        BackgroundColor="#2563eb"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        WidthRequest="180"
+                        HeightRequest="50"
+                        CornerRadius="10"
+                        Clicked="OnIniciarProcesoClicked" />
+                <Button Text="🔁 Reiniciar"
+                        Clicked="OnReiniciarClicked"
+                        BackgroundColor="#f97316"
+                        TextColor="White"
+                        WidthRequest="120"
+                        HeightRequest="50"
+                        CornerRadius="10" />
+                <Button Text="Generar Excel" Clicked="OnGenerarExcelClicked" BackgroundColor="DarkGreen" TextColor="White" WidthRequest="120" HeightRequest="50" CornerRadius="10"/>
+            </HorizontalStackLayout>
+
+            <Label Text="Resultado JSON:" FontAttributes="Bold" FontSize="16" TextColor="#1f2937" />
+            <Border Stroke="#e5e7eb" Background="#ffffff" StrokeShape="RoundRectangle 10" Padding="10">
+                <Editor x:Name="editorJson"
+                        HeightRequest="250"
+                        IsReadOnly="True"
+                        AutoSize="TextChanges"
+                        FontSize="12"
+                        TextColor="#111827" />
+            </Border>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
